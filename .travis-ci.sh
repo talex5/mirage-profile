@@ -24,7 +24,7 @@ opam install mirage-profile
 echo Just stubs
 ls -l `ocamlfind query mirage-profile`/*.a
 
-opam pin add lwt 'https://github.com/mirage/lwt.git#tracing'
+opam pin add lwt 'https://github.com/talex5/lwt.git#tracing'
 ocamlfind query lwt.tracing
 
 echo Unix tracing
